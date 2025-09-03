@@ -156,37 +156,145 @@ top: 367px;
 }
 
 .abus {
+  margin-top: 100px;
 }
 .abus__container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
 .abus__img--shadow {
+  background: #DEE4E2;
+  width: 620px;
+  height: 600px;
 }
 .abus__img {
-  width: 630px;
+  width: 600px;
+  height: 580px;
 }
 .abus__txt {
+  margin-left: 20px;
 }
 .abus__header--text {
 }
 .abus__header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #244D4D;
 }
 .abus_ht {
+  color: #444444;
+  font-size: 20px;
+  line-height: 25px;
 }
 .abus__params {
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
 }
 .abus__param {
+  display: grid;
+  grid-template-columns: 1fr 5fr ;
 }
 .abus__param--img {
+  width: 50px;
+  height: 50px;
 }
 .abus__param--header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #244D4D;
 }
 .abus__param--text {
+  font-size: 18px;
+  line-height: 27px;
+  color: #383738;
 }
 
 
+@media (max-width:1490px){
+  *{
+    max-width: 1150px;
+  }
+}
 
+@media (max-width:1280px){
+  *{
+    max-width: 1020px;
+  }
+}
+@media (max-width:975px){
+ .container{
+  width: 90%;
+ }
+ .td {
+    margin-left: 30px;
+}
+.comp__img {
+  padding-left: 0;
+}
+ img{
+  max-width: none;
+ }
+ .abus__container{
+  grid-template-columns: none;
+ }
+ .top__inner{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 935px;
+    grid-template-columns: none;
+ }
+
+}
+@media (max-width:800px){
+  .top__inner{
+    width: min-content;
+  }
+  .top__header{
+    font-size: 40px;
+
+  }
+  .top__text{
+    font-size: 16px;
+  }
+  .comp__imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    text-align: center;
+}
+.abus__img--shadow{
+  width: 104%;
+  height: 103%;
+}
+.abus__img{
+  width: 97%;
+  height: 96%;
+}
+    
+}
+@media (max-width:535px){
+  .top__inner {
+    width: min-content;
+ }
+
+  .container {
+      width: 105%;
+  }
+    .comp__imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+@media (max-width:445px){
+  .container{
+    width: 145%;
+  }
+}
 
 
 
