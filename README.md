@@ -1,10 +1,10 @@
 [DudeShape](https://danila-nazarenko.github.io/DudeShape/)  
 <br>
 
-#Responsive Layout for Various Devices<br>
+# Responsive Layout for Various Devices <br>
 This project features a responsive web page optimized for viewing on phones, tablets, and desktops. It was developed using modern technologies including HTML, CSS, and JavaScript, with layout modules like Grid and Flexbox to ensure a flexible and adaptive design.
 
-#Features<br>
+# Features<br>
 Responsive Design<br>
 The pages automatically adapt to different screen sizes, providing a comfortable user experience on all devices.<br>
 
