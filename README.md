@@ -2,13 +2,21 @@
 <br>
 
 Responsive Layout for Various Devices
-This project is a responsive web page optimized for viewing on phones, tablets, and desktops. The development utilized modern technologies including HTML, CSS, and JavaScript, as well as layout modules like Grid and Flexbox to achieve a flexible and adaptive design.
+This project features a responsive web page optimized for viewing on phones, tablets, and desktops. It was developed using modern technologies including HTML, CSS, and JavaScript, with layout modules like Grid and Flexbox to ensure a flexible and adaptive design.
 
 Features
-Responsive Design: Pages automatically adapt to different screen sizes for a comfortable user experience across all devices.
-Use of CSS Grid and Flexbox: For creating flexible and structured layouts.
-Interactivity: Simple scripts implemented to enhance user experience.
-Standards and Modern Approach: Code written according to current best practices.
+Responsive Design
+The pages automatically adapt to different screen sizes, providing a comfortable user experience on all devices.
+
+Use of CSS Grid and Flexbox
+Flexible and structured layouts are created using these modern CSS techniques.
+
+Interactivity
+Simple JavaScript scripts enhance the overall user experience.
+
+Standards and Modern Approach
+The code follows current best practices and standards for web development.
+
 Technologies
 HTML5
 CSS3 (Flexbox, Grid)
