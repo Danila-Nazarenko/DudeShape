@@ -709,7 +709,7 @@ justify-content: center;
     flex-direction: column;
     width: auto;
     font-size: xx-large;
-    align-items: center;
+    text-align: center;
  }
 
   .container {
